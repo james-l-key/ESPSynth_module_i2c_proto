@@ -1,6 +1,6 @@
 #include "module_i2c_proto.h"
 #include <string.h> // For memcpy
-#include <cstdint.h>
+#include <stdint.h>
 
 // Implementation for i2c_proto_pack_set_param_msg
 size_t i2c_proto_pack_set_param_msg(uint8_t *buf, size_t buf_len, ParamId_t param_id, ParamValue_t param_value)
